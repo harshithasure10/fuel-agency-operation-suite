@@ -62,8 +62,9 @@ git clone https://github.com/harshithasure10/fuel-agency-operation-suite.git
 This project uses **Gmail SMTP** to send emails.  
 
 In application.properties, add:
-properties
+
 spring.mail.username=your_email@gmail.com
+
 spring.mail.password=your_gmail_app_password
 
 Make sure 2-step verification is enabled on Gmail and generate an app password.
